@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(36, 12, 12);
 }
 
 .App-link {
@@ -59,14 +59,14 @@ h3{
 a:hover,
 a:focus,
 a:active{
-  color:#487922;
+  color:#726cd3;
   text-decoration:none;
 }
-header{background: #487922;}
+header{background: #222f79;}
 .top-bar {
   padding:0px;
   font-size:12px;
-  border-bottom: .4px solid #3b621c;
+  border-bottom: .4px solid #10216bf3;
   min-height:40px;
 }
 .main-header {
@@ -76,7 +76,7 @@ header{background: #487922;}
   color:#fff;
 }
 .header-nav {
-  background: #3b621c;
+  background: #000000;
 }
 .calc-res {
   font-size: 1.2rem;

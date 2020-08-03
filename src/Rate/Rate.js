@@ -41,7 +41,8 @@ class Rate extends React.Component {
                 .toFixed(2)}*</div>
                 <p>* За 1 EUR</p>
               </div>
-            ))}
+            )
+          )}
           </div>
           <Calc rate={this.state.currencyRate} />
       </div>

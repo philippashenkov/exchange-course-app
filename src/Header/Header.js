@@ -3,16 +3,14 @@ import './Header.css';
 import Nav from '../Nav/Nav';
 
 class Header extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+
   render() {
     return(
       <header>
         <div className="top-bar animate-dropdown"></div>
         <div className="main-header">
           <div className="container">
-            <h1 className="site-title">React lite</h1>
+            <h1 className="site-title">Расчет валют</h1>
 
           </div>
         </div>

@@ -15,11 +15,11 @@ class Calc extends React.Component {
 
   calcRate = (e) => {
     e.preventDefault();
-    console.log('work');
+    // console.log('work');
     let elements = e.target.elements;
-    console.log(elements);
-    console.log(elements['count-currency'].value);
-    console.log(elements['type-currency'].value);
+    // console.log(elements);
+    // console.log(elements['count-currency'].value);
+    // console.log(elements['type-currency'].value);
     let countCurrency = elements['count-currency'].value;
     let typeCurrency = elements['type-currency'].value;
     this.setState({ result : (countCurrency / this.state.rate[typeCurrency]).toFixed(2) })
@@ -34,7 +34,7 @@ class Calc extends React.Component {
 
                 <div>
                   <form onSubmit={this.calcRate}>
-                  <input type="number" defaultValue='150' name="count-currency"/>
+                  <input type="number" defaultValue='' name="count-currency"/>
                 <select name="type-currency" id="">
                   {Object.keys(this.props.rate).map((keyName, i) =>
                     (
